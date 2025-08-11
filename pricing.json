@@ -1,0 +1,47 @@
+{
+  "termite": {
+    "liquid": {
+      "sqft": {
+        "base": 300.0,
+        "rate": 0.12
+      },
+      "linearft": {
+        "base": 300.0,
+        "rate": 2.5
+      }
+    },
+    "bait": {
+      "linearft": {
+        "base": 200.0,
+        "rate": 3.0
+      },
+      "station": {
+        "base": 200.0,
+        "rate": 25.0
+      }
+    }
+  },
+  "fungus": {
+    "sqft": {
+      "base": 250.0,
+      "rate": 0.15
+    }
+  },
+  "general_pest": {
+    "initial": {
+      "base": 150.0,
+      "perSeverity": 50.0
+    },
+    "monthly": 75.0,
+    "quarterly": 150.0,
+    "seasonal": 200.0
+  },
+  "bed_bugs": {
+    "sqft": {
+      "base": 500.0,
+      "rate": 0.2
+    },
+    "bed_cover": 50.0,
+    "interceptors": 25.0
+  }
+}
