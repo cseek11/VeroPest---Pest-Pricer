@@ -13,6 +13,12 @@ import { initializeApp } from 'firebase/app'
 import { getAuth } from 'firebase/auth'
 import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore'
 
+// Import the functions you need from the SDKs you need
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAP_hJoJZ675QiMZltgjxkHrtLzw9Lldv4",
   authDomain: "veropest---pest-pricer.firebaseapp.com",
@@ -21,6 +27,9 @@ const firebaseConfig = {
   messagingSenderId: "635747849334",
   appId: "1:635747849334:web:95041a0e62847333cf3b57"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 let app = null
 let auth = null
