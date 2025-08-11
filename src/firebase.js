@@ -14,13 +14,12 @@ import { getAuth } from 'firebase/auth'
 import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCD4KKAMB8VCLoxD5JKGP2Dy7dO9lxlTc4",
-  authDomain: "pest-pricer.firebaseapp.com",
-  projectId: "pest-pricer",
-  storageBucket: "pest-pricer.firebasestorage.app",
-  messagingSenderId: "814646384186",
-  appId: "1:814646384186:web:6e1199d451c0f9255b4703",
-  measurementId: "G-V5BKEBFPJ6"
+  apiKey: "AIzaSyAP_hJoJZ675QiMZltgjxkHrtLzw9Lldv4",
+  authDomain: "veropest---pest-pricer.firebaseapp.com",
+  projectId: "veropest---pest-pricer",
+  storageBucket: "veropest---pest-pricer.firebasestorage.app",
+  messagingSenderId: "635747849334",
+  appId: "1:635747849334:web:95041a0e62847333cf3b57"
 };
 
 let app = null
